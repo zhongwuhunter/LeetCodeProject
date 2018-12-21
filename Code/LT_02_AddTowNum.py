@@ -3,7 +3,7 @@
 #  时间复杂度 O(n)
 #  空间复杂度 O(n)
 #
-from BaseSTL import  *
+from BaseLinkedList import  *
 
 l1 = LinkedList()
 l1.append(8)

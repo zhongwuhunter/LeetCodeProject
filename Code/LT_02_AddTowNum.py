@@ -1,4 +1,8 @@
-
+#
+#  两个数字相加  整数非0， 用于超大数字
+#  时间复杂度 O(n)
+#  空间复杂度 O(n)
+#
 from BaseSTL import  *
 
 l1 = LinkedList()
@@ -13,6 +17,7 @@ p1 = l1.head
 p2 = l2.head
 
 dummyHead = LinkedList()
+# 这里添加一个-1的节点不是必须的，指数保证了这个链表的存在，其实这个-1节点没用
 dummyHead.append(-1)
 
 

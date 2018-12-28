@@ -23,5 +23,8 @@ class LinkedList:
             self.tail = node
 
 
-
-
+    def printAll(self):
+        tempNode = self.head
+        while tempNode is not None:
+            print(tempNode.data)
+            tempNode = tempNode.next

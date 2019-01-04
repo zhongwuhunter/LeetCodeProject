@@ -33,7 +33,7 @@ def custom_delDuplicates(nums):
 
     return repIndex
 
-
+# 答案
 def delDuplicates(nums):
     if len(nums) == 0 :
         return  0
@@ -53,8 +53,27 @@ def delDuplicates(nums):
     return pre+1
 
 
+# 练习
+def delteNums(nums):
+    pre = 0;
+    cur = 0;
+    count = len(nums);
+
+    while cur < count:
+
+        if nums[pre] == nums[cur]:
+            cur += 1;
+        else:
+            pre += 1;
+            nums[pre] = nums[cur];
+            cur += 1
+
+    return pre+1
+
+
 def test():
-    ret = delDuplicates(nums)
+    ret = delteNums(nums)
+    # ret = delDuplicates(nums)
 
     for value in nums:
         print(value)

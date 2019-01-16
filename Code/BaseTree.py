@@ -3,27 +3,27 @@
 
 
 class TreeNode:
-    key = None
+    val = None
     data= None
     leftNode = None
     rightNode = None
 
-    def __init__(self, key):
-        self.key = key
+    def __init__(self, val):
+        self.val = val
 
 # 二叉树搜索树
 class BinarySearchTree:
     root = None
 
-    def insert(self, key):
-        node = TreeNode(key)
+    def insert(self, val):
+        node = TreeNode(val)
         currentNode = self.root
         while True :
             if currentNode is None :
                 self.root = node
                 return
             else:
-                if key > currentNode.key :
+                if val > currentNode.val :
                     if currentNode.rightNode is None:
                         currentNode.rightNode = node
                         return
@@ -41,7 +41,7 @@ class BinarySearchTree:
     def inorder(self, node):
         if node is not None :
             self.inorder(node.leftNode)
-            print(node.key)
+            print(node.val)
             self.inorder(node.rightNode)
 
 
@@ -60,14 +60,24 @@ class BinaryTree():
         current.leftNode = TreeNode(4)
         current.rightNode = TreeNode(5)
 
+    def insert2(self):
+        self.root = TreeNode(3)
+        current = self.root
+        current.leftNode = TreeNode(9)
+        current.rightNode = TreeNode(20)
+
+        current = current.leftNode
+        current.leftNode = TreeNode(15)
+        current.rightNode = TreeNode(7)
+
     def inorder(self, node):
         if node is not None :
             self.inorder(node.leftNode)
-            print(node.key)
+            print(node.val)
             self.inorder(node.rightNode)
 
 # def test():
-#     tree = BinaryTree();
+#     tree = BinarySearchTree();
 #     tree.insert(100)
 #     tree.insert(80)
 #     tree.insert(150)
@@ -79,8 +89,8 @@ class BinaryTree():
 #     tree.insert(30)
 #
 #     tree.inorder(tree.root)
-
-
+#
+# test()
 
 
 

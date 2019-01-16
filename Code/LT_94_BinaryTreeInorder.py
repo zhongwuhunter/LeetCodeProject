@@ -1,4 +1,5 @@
-
+# 中序遍历
+#
 
 from  BaseTree import  *
 from  BaseStack import  *
@@ -26,9 +27,9 @@ def test():
     tree = BinaryTree();
     tree.insert1()
     tree.inorder(tree.root)
-    # list = inorderTraversal(tree.root)
-    # for key in list:
-    #     print(key)
+
+
+
 
 
 test()

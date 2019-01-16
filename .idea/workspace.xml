@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811ceba7-1d14-48b9-b774-b9afb66696e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code/BaseTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/LT_86_PartitionList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/LT_92_ReverseBetween.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/BaseQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/LT_102_BinaryTreeLevelOrder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/BaseStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/BaseStack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/LT_01_TowSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/LT_01_TowSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/LT_075_SortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/LT_75_SortColors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/BaseTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/BaseTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +25,11 @@
     <SUITE FILE_PATH="coverage/LTProject$BaseStack.coverage" NAME="BaseStack Coverage Results" MODIFIED="1547607159505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/LTProject$LT_24_SwapNodesInPairs.coverage" NAME="LT_24_SwapNodesInPairs Coverage Results" MODIFIED="1545796067053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/LTProject$LT_075_SortColors.coverage" NAME="LT_075_SortColors Coverage Results" MODIFIED="1546851063493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
-    <SUITE FILE_PATH="coverage/LTProject$BaseTree.coverage" NAME="BaseTree Coverage Results" MODIFIED="1547609467259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
-    <SUITE FILE_PATH="coverage/LTProject$LT_94_BinaryTreeInorder.coverage" NAME="LT_94_BinaryTreeInorder Coverage Results" MODIFIED="1547609626780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/LTProject$BaseTree.coverage" NAME="BaseTree Coverage Results" MODIFIED="1547623224823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/LTProject$LT_102_BinaryTreeLevelOrder.coverage" NAME="LT_102_BinaryTreeLevelOrder Coverage Results" MODIFIED="1547625117390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/LTProject$LT_94_BinaryTreeInorder.coverage" NAME="LT_94_BinaryTreeInorder Coverage Results" MODIFIED="1547623316436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/LTProject$LT_20_ValidParentheses.coverage" NAME="LT_20_ValidParentheses Coverage Results" MODIFIED="1547605724411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/LTProject$BaseQueue.coverage" NAME="BaseQueue Coverage Results" MODIFIED="1547622311563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/LTProject$LT_26_DelDuplicates.coverage" NAME="LT_26_DelDuplicates Coverage Results" MODIFIED="1546600513223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/LTProject$LT_96_ReverseBetween.coverage" NAME="LT_96_ReverseBetween Coverage Results" MODIFIED="1547547668811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
   </component>
@@ -38,47 +37,47 @@
     <session id="1534977006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.4" value="9" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="53" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="53" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="py" value="13146" />
+          <entry key="py" value="14095" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13146" />
+          <entry key="Python" value="14095" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/BaseTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="143">
+              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -86,11 +85,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding>
-                <element signature="e#2#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="358">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/LT_102_BinaryTreeLevelOrder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/BaseQueue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -98,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/BaseStack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -118,6 +132,7 @@
       <find>p1</find>
       <find>data</find>
       <find>front</find>
+      <find>res</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,7 +160,9 @@
         <option value="$PROJECT_DIR$/Code/LT_96_ReverseBetween.py" />
         <option value="$PROJECT_DIR$/Code/BaseStack.py" />
         <option value="$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py" />
+        <option value="$PROJECT_DIR$/Code/BaseQueue.py" />
         <option value="$PROJECT_DIR$/Code/BaseTree.py" />
+        <option value="$PROJECT_DIR$/Code/LT_102_BinaryTreeLevelOrder.py" />
       </list>
     </option>
   </component>
@@ -155,8 +172,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -216,7 +233,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LT_94_BinaryTreeInorder">
+  <component name="RunManager" selected="Python.LT_102_BinaryTreeLevelOrder">
+    <configuration name="BaseQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LTProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/BaseQueue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BaseStack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LTProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LT_20_ValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LT_102_BinaryTreeLevelOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LTProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +313,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/LT_20_ValidParentheses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/LT_102_BinaryTreeLevelOrder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,42 +344,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LT_96_ReverseBetween" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LTProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/LT_92_ReverseBetween.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.LT_96_ReverseBetween" />
       <item itemvalue="Python.BaseTree" />
       <item itemvalue="Python.LT_94_BinaryTreeInorder" />
       <item itemvalue="Python.BaseStack" />
-      <item itemvalue="Python.LT_20_ValidParentheses" />
+      <item itemvalue="Python.LT_102_BinaryTreeLevelOrder" />
+      <item itemvalue="Python.BaseQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LT_102_BinaryTreeLevelOrder" />
         <item itemvalue="Python.LT_94_BinaryTreeInorder" />
         <item itemvalue="Python.BaseTree" />
+        <item itemvalue="Python.BaseQueue" />
         <item itemvalue="Python.BaseStack" />
-        <item itemvalue="Python.LT_20_ValidParentheses" />
-        <item itemvalue="Python.LT_96_ReverseBetween" />
       </list>
     </recent_temporary>
   </component>
@@ -358,15 +375,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="2" y="23" width="1440" height="797" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3125894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31688127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41985816" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,25 +497,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/BaseStack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BaseQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/LT_94_BinaryTreeInorder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#2#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="358">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/BaseTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="143">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/LT_102_BinaryTreeLevelOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>

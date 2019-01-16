@@ -19,5 +19,12 @@ class Stack:
         else:
             return None
 
+    def top(self):
+        if self.isEmpty():
+            return None
+        else:
+            # return self.items[0]
+            return self.items[len(self.items) - 1]
+
     def size(self):
         return len(self.items)

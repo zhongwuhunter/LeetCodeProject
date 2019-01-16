@@ -27,6 +27,10 @@ def towSum(nums, target):
 
 # 练习
 # def custom_towSum(nums, target):
+#     dict = {}
+#     for value in nums:
+
+
 
 
 
@@ -35,6 +39,8 @@ def towSum(nums, target):
 def start():
     nums = [2, 7, 11, 15, 90, 78];
     traget = 91;
+
+    print(nums.index(11))
 
     tup = towSum(nums, traget);
     print(tup[0], tup[1]);

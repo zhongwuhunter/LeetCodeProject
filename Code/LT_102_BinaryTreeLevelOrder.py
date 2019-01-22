@@ -28,10 +28,10 @@ def levelOrder(root):
             res.append([])
 
         res[level].append(node.val)
-        if node.leftNode is not None :
-            q.push((node.leftNode, level+1))
-        if node.rightNode is not None:
-            q.push((node.rightNode, level + 1))
+        if node.left is not None :
+            q.push((node.left, level+1))
+        if node.right is not None:
+            q.push((node.right, level + 1))
 
     return res
 

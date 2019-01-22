@@ -5,8 +5,8 @@
 class TreeNode:
     val = None
     data= None
-    leftNode = None
-    rightNode = None
+    left = None
+    right = None
 
     def __init__(self, val):
         self.val = val
@@ -24,25 +24,25 @@ class BinarySearchTree:
                 return
             else:
                 if val > currentNode.val :
-                    if currentNode.rightNode is None:
-                        currentNode.rightNode = node
+                    if currentNode.right is None:
+                        currentNode.right = node
                         return
                     else:
-                        currentNode = currentNode.rightNode
+                        currentNode = currentNode.right
                 else:
-                    if currentNode.leftNode is None:
-                        currentNode.leftNode = node
+                    if currentNode.left is None:
+                        currentNode.left = node
                         return
                     else:
-                        currentNode = currentNode.leftNode
+                        currentNode = currentNode.left
 
 
 
     def inorder(self, node):
         if node is not None :
-            self.inorder(node.leftNode)
+            self.inorder(node.left)
             print(node.val)
-            self.inorder(node.rightNode)
+            self.inorder(node.right)
 
 
 
@@ -53,28 +53,28 @@ class BinaryTree():
     def insert1(self):
         self.root = TreeNode(1)
         current = self.root
-        current.rightNode = TreeNode(2)
-        current = current.rightNode
-        current.leftNode = TreeNode(3)
-        current = current.leftNode
-        current.leftNode = TreeNode(4)
-        current.rightNode = TreeNode(5)
+        current.right = TreeNode(2)
+        current = current.right
+        current.left = TreeNode(3)
+        current = current.left
+        current.left = TreeNode(4)
+        current.right = TreeNode(5)
 
     def insert2(self):
         self.root = TreeNode(3)
         current = self.root
-        current.leftNode = TreeNode(9)
-        current.rightNode = TreeNode(20)
+        current.left = TreeNode(9)
+        current.right = TreeNode(20)
 
-        current = current.leftNode
-        current.leftNode = TreeNode(15)
-        current.rightNode = TreeNode(7)
+        current = current.left
+        current.left = TreeNode(15)
+        current.right = TreeNode(7)
 
     def inorder(self, node):
         if node is not None :
-            self.inorder(node.leftNode)
+            self.inorder(node.left)
             print(node.val)
-            self.inorder(node.rightNode)
+            self.inorder(node.right)
 
 # def test():
 #     tree = BinarySearchTree();

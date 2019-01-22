@@ -13,11 +13,11 @@ def inorderTraversal(root):
     while p is not None or not s.isEmpty() :
         while p is not  None :
             s.push(p)
-            p = p.leftNode
+            p = p.left
         p = s.top()
         s.pop()
         res.append(p.key)
-        p = p.rightNode
+        p = p.right
 
     return res
 

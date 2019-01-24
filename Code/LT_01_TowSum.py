@@ -38,7 +38,7 @@ def towSum(nums, target):
 
 def start():
     nums = [2, 7, 11, 15, 90, 78];
-    traget = 91;
+    traget = 18;
 
     print(nums.index(11))
 

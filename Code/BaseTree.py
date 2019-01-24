@@ -70,6 +70,16 @@ class BinaryTree():
         current.left = TreeNode(15)
         current.right = TreeNode(7)
 
+    def insert3(self):
+        self.root = TreeNode(3)
+        current = self.root
+        current.left = TreeNode(9)
+        current.right = TreeNode(20)
+
+        current = current.right
+        current.left = TreeNode(15)
+        current.right = TreeNode(7)
+
     def inorder(self, node):
         if node is not None :
             self.inorder(node.left)
@@ -77,16 +87,19 @@ class BinaryTree():
             self.inorder(node.right)
 
 # def test():
-#     tree = BinarySearchTree();
-#     tree.insert(100)
-#     tree.insert(80)
-#     tree.insert(150)
-#     tree.insert(50)
-#     tree.insert(90)
-#     tree.insert(60)
-#     tree.insert(70)
-#     tree.insert(40)
-#     tree.insert(30)
+#     # tree = BinarySearchTree();
+#     # tree.insert(100)
+#     # tree.insert(80)
+#     # tree.insert(150)
+#     # tree.insert(50)
+#     # tree.insert(90)
+#     # tree.insert(60)
+#     # tree.insert(70)
+#     # tree.insert(40)
+#     # tree.insert(30)
+#
+#     tree = BinaryTree()
+#     tree.insert3()
 #
 #     tree.inorder(tree.root)
 #

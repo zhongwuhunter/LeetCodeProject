@@ -17,15 +17,18 @@ def zigzagLevelOrder(root):
     count = 1
     countTmp = 0
     while not q.empty():
-        countTmp = 0;
+        countTmp = 0
         res1D = []
         while count > 0 :
-            res1D.append(q.front().val)
-            if q.front().left is not None:
-                q.push(q.front().left)
+            frontNode =  q.front()
+            res1D.append(frontNode.val)
+            if frontNode.left is not None:
+                anode = frontNode.left
+                q.push(anode)
                 countTmp += 1
-            if q.front().right:
-                q.push(q.front().right)
+            if frontNode.right  is not None:
+                anode = frontNode.right
+                q.push(anode)
                 countTmp += 1
 
             q.pop()
@@ -46,7 +49,7 @@ def zigzagLevelOrder(root):
 
 def test():
     tree =  BinaryTree()
-    tree.insert2()
+    tree.insert3()
     root = tree.root
     res = zigzagLevelOrder(root)
 

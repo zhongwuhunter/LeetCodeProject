@@ -8,12 +8,9 @@
 #
 # 因为 nums[0] + nums[1] = 2 + 7 = 9
 # 所以返回 [0, 1]
+# 时间复杂度 o(n)
 
 
-
-
-
-# 答案
 def towSum(nums, target):
     dict = {};
     for value in nums:
@@ -41,11 +38,53 @@ def cus_towSum(nums, target):
 
     return (0, 0)
 
+
+
+
 def start():
     nums = [2, 7, 11, 15, 90, 78];
-    traget = 18;
+    traget = 17;
 
     tup = cus_towSum(nums, traget);
     print(tup[0], tup[1]);
 
 start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

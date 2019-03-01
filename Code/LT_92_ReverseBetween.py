@@ -46,7 +46,7 @@ def reverseBetwwen(list, m, n):
 
 
 
-def  cus_bw(list, m, n):
+def cus_bw(list, m, n):
     dummy = Node(-1)
     dummy.next = list.head
 
